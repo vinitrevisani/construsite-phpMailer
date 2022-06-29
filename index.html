@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/additional-methods.min.js"></script>
+    <script type="text/javascript" src="js/localization/messages_pt_BR.js"></script>
+
+</head>
+<body>
+    <div class="top">
+        <img class="logo" src="img/logo.png" alt="Logo Construsite">
+    </div>
+    
+    <form name ="formulario" id="formulario" action="email.php" method="post">
+        <div class="principal">
+            <div class="esquerda">
+                <h1 class="maior">Nome:</h1>
+                <p style="color: rgb(88, 88, 88);">Vinicius Trevisani</p>
+            </div>
+            <div class="direita">
+                <h1 class="maior">Mensagem</h1>
+                <div class="form">
+                    <label for="nome" class="menor">Nome*</label>
+                    <input type="text" name="nome" id="nome" class="inserir" required>
+                    <label for="tel" class="menor">Telefone*</label>
+                    <input type="tel" name="tel" id="tel" class="inserir" required>
+                    <label for="email" class="menor">Email*</label>
+                    <input type="email" name="email" id="email" class="inserir" required>
+                    <label for="mensagem" class="menor">Mensagem*</label>
+                    <textarea row="6" id="msg" name="msg" class="inserirmsg" required></textarea>
+                    <button type="submit">Enviar Mensagem</button>
+                </div>
+            </div>
+        </div>
+        <script src="validate.js"></script>
+    </form>
+</body>
+</html>

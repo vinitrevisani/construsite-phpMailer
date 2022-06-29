@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding : 20px;
+    padding-left: 70px;
+    background-color: #3d8eda;
+    max-height: 110px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.maior{
+    color:#409fd4;
+    font-size:25px
+}
+
+.menor{
+    color:#2e6f92;
+    font-size: 18px;
+}
+
+.principal{
+    overflow-y: scroll;
+    position: relative;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap:500px
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 200px;
+    
+}
+
+.direita{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form{
+    border: gray;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+.inserir{
+width: 400px;
+height: 30px;
+}
+.inserirmsg{
+    width: 400px;
+    height: 100px;
+}
+
+button {
+    background-color: #65a02e;
+    border-color: #89b95c;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+}
+
+
+
+
